@@ -2,4 +2,132 @@
     height: 472px;
     background: linear-gradient(83.62deg, rgba(244, 175, 70, 0.48) 0%, rgba(0, 0, 0, 0) 75.57%), #121212;
     transform: matrix(-1, 0, 0, 1, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .rentInfoContainer{
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 1200px;
+        min-width: 1200px;
+        .findRentContainer {
+            display: flex;
+            flex-direction: column;
+            background: rgba($color: #000000, $alpha: 0.4);
+            border-radius: 4px;
+            width: 327px;
+            height: 376px;
+            box-sizing: border-box;
+            border: 1px solid Gold;
+            font-family: 'Ubuntu';
+            color: #FFFFFF;
+
+            .title {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 17px;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: row;
+                margin-top: 28px;
+                .titleImg {
+                    background: url(../../assets/images/carlogo.png);
+                    width: 41px;
+                    height: 28px;
+                }
+                .titleText {
+                    span{
+                        font-size: 12px;
+                        line-height: 14px;
+                        font-weight: 400;
+                        color: rgba(255, 255, 255, 0.5);
+                    }
+                }
+            }
+            .inputsContainer {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin: 25px;
+                select {
+                    margin-top: 10px;
+                    width: 279px;
+                    height: 40px;
+                    background: #F7F7F7;
+                    border-radius: 2px;
+                    cursor: pointer;
+                }
+                button {
+                    width: 279px;
+                    height: 40px;
+                    background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
+                    border-radius: 2px;
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #000000;
+                    margin-top: 10px;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+        .bestAvilableContainer {
+            width: 250px;
+            height: 376px;
+        }
+
+        .bestAvilableContainer {
+            margin-top: 140px;
+            font-family: 'Ubuntu';
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            color: white;
+            span {
+                color: #FCE386;
+            }
+            div {
+                margin-top: 35px;
+                display: flex;
+                flex-direction: row;
+                margin-right: 5px;
+                .newImage {
+                    background: url('../../assets/images/new.png');
+                    width: 39px;
+                    height: 39px;
+                }
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 18px;
+                }
+            }
+            button {
+                margin-top: 35px;
+                cursor: pointer;
+                border: 0;
+                width: 195px;
+                height: 40px;
+                background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
+                border-radius: 4px;
+                color: #000000;
+            }
+
+        }
+    }
+
+
 }
