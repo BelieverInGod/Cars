@@ -11,12 +11,35 @@ function ThirdBlock() {
           Our Advantages
         </div>
 
-        <div>
-            <img src={premiumPark} alt='premiumCarParkImg'/>
-            <span>Premium Car Park</span>
-            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        <div className='advantagesBocksContaineer'>
+            <div className='advantageBlock'>
+                <img src={premiumPark} alt='premiumCarParkImg'/>
+                <span>Premium Car Park</span>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                </div>
+            </div>
+            <div className='advantageBlock'>
+                <img src={premiumPark} alt='premiumCarParkImg'/>
+                <span>Premium Car Park</span>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+               </div>
+            </div>
+            <div className='advantageBlock'>
+                <img src={premiumPark} alt='premiumCarParkImg'/>
+                <span>Premium Car Park</span>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+               </div>
+            </div>
+            <div className='advantageBlock'>
+                <img src={premiumPark} alt='premiumCarParkImg'/>
+                <span>Premium Car Park</span>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+               </div>
+            </div>
         </div>
 
       </div>

@@ -1,14 +1,17 @@
 .ThirdBlock {
     background: url(../../assets/images/12121212.png), #000000;
     height: 430px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     div{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
         height: 100%;
-        max-width: 1200px;
-        min-width: 1200px;
+        width: 1200px;
+
         .titleAdvantagesContainer {
             font-family: 'Ubuntu';
             font-style: normal;
@@ -20,8 +23,51 @@
             flex-direction: row;
             justify-content: flex-start;
             img {
+                margin-left: 25px;
+                margin-right: 15px;
                 width: 32px;
                 height: 30px;
+            }
+        }
+        
+        .advantagesBocksContaineer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+
+            .advantageBlock {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+                cursor: pointer;
+                width: 206px;
+                height: 221px;
+                img {
+                    width: 90.58px;
+                    height: 47.05px;
+                }
+                span {
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;           
+                }
+                div {
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #FFFFFF;
+                }
             }
         }
     }
