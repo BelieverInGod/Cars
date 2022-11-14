@@ -45,11 +45,15 @@
                 cursor: pointer;
                 width: 206px;
                 height: 221px;
+                text-align: center;
+                margin-right: 100px;
                 img {
                     width: 90.58px;
                     height: 47.05px;
                 }
                 span {
+                    margin-top: 40px;
+                    width: 180px;
                     font-family: 'Ubuntu';
                     font-style: normal;
                     font-weight: 700;
@@ -61,6 +65,10 @@
                     background-clip: text;           
                 }
                 div {
+                    text-align: start;
+                    margin-top: 20px;
+                    width: 160px;
+                    padding-left: 15px;
                     font-family: 'Ubuntu';
                     font-style: normal;
                     font-weight: 400;
