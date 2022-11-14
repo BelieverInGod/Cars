@@ -76,6 +76,11 @@
                     margin-top: 10px;
                     border: none;
                     cursor: pointer;
+                    transition: all .2s ease-in-out;               
+                }
+                button:hover {
+                    transform: scale(1.01);
+                    transition: .2s;              
                 }
             }
         }
@@ -102,10 +107,12 @@
                 flex-direction: row;
                 margin-right: 5px;
                 .newImage {
+                    cursor: pointer;
                     background: url('../../assets/images/new.png');
                     width: 39px;
                     height: 39px;
                 }
+
                 div {
                     display: flex;
                     flex-direction: column;
@@ -124,6 +131,11 @@
                 background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
                 border-radius: 4px;
                 color: #000000;
+                transition: all .2s ease-in-out;               
+            }
+            button:hover {
+                transform: scale(1.01);
+                transition: .2s;              
             }
 
         }
