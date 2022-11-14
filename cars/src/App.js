@@ -5,7 +5,6 @@ import SecondBlock from './components/SecondBlock/SecondBlock';
 import ThirdBlock from './components/ThirdBlock/ThirdBlock';
 import FourthBlock from './components/FourthBlock/FourthBlock';
 import FifthBlock from './components/FifthBlock/FifthBlock';
-import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
       <ThirdBlock/>
       <FourthBlock/>
       <FifthBlock/>
-      <Footer/>
+      <Header/>
     </div>
   );
 }

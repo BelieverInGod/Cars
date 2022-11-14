@@ -2,4 +2,95 @@
     background: linear-gradient(272.34deg, rgba(249, 208, 104, 0.2) 0%,
      rgba(0, 0, 0, 0) 99.62%), #000000;
     height: 317px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    .carParkContainer {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 1200px;
+        min-width: 1200px;
+
+        .type {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-inline: 30px;
+            div {
+                display: flex;
+                flex-direction: row;
+                font-family: 'Ubuntu';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+                color: #FCE386;
+                div {
+                    margin-right: 20px;
+                    background: url('../../assets/images/carPark.svg');
+                    width: 44px;
+                    height: 30px;
+                }
+            }
+            span {
+                margin-top: 10px;
+                font-family: 'Ubuntu';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+        }
+
+        .typesInfoBlockContainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 70%;
+            .typesInfoBlock {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                box-sizing: border-box;
+                border: 1px solid rgba($color: Gold, $alpha: 0.4);
+                width: 206px;
+                height: 221px;
+                background: rgba($color: #000000, $alpha: 0.4);
+                border-radius: 4px;
+                color: rgba(255, 255, 255, 0.5);
+                img {
+                    width: 122px;
+                    height: 58px;
+                    margin-top: 10px;
+                }
+                span {
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #FFFFFF;
+                    margin-bottom: 20px;
+                }
+                div {
+                    padding-top: 25px;
+                    height: 59px;
+                    border-top: 1px solid #FFFFFF;
+                    margin-inline: 15px;
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 150%;
+                }
+            }
+        }
+    
+    }
 }
