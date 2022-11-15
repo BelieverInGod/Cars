@@ -8,7 +8,7 @@
         
     
     .FourthBlockAllContainer{
-        width: 1200px;
+        width: 1150px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -70,11 +70,45 @@
             width: 1200px;
             display:  flex;
             justify-content: space-around;
+            flex-direction: row;
+            
             div {
+                padding-top: 5px;
+                align-items: center;
+                display:  flex;
+                justify-content: center;
+                flex-direction: row;
                 width: 25%;
                 height: 120px;
-                background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
                 border-radius: 6px;
+                background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
+
+                img {
+
+                    width: 57px;
+                    height: 57px;
+                }
+                div {
+                    background: none;
+                    display: flex;
+                    flex-direction: column;
+                    width: 70%;
+                    color: #000000;
+                    span {
+                        font-family: 'Ubuntu';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 18px;
+                    }
+                    div {
+                        font-family: 'Ubuntu';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                }
             }
         }
     }

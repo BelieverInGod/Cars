@@ -32,28 +32,27 @@ function FourthBlock() {
             
             <div className='absoluteBox'>
               <div>
-                <img src={draw} alt='2'/>
-                <span>Jaguar F-Type Cabrio</span>
-                <div>Amazing car to drive and enjoy views of the beautiful
-                      ebat togo rot bratislava.
-                      Feel free to gazovat pizda and enjoy the wind !
+                <img src={draw} alt='1'/>
+                <div>
+                  <span>Make a request</span>
+                  <div>Do it on Whatsapp or via the best way which is most comofrtable for you!
+                  </div>
                 </div>
-
               </div>
               <div>
                 <img src={tap} alt='2'/>
-                <span>Jaguar F-Type Cabrio</span>
-                <div>Amazing car to drive and enjoy views of the beautiful
-                      ebat togo rot bratislava.
-                      Feel free to gazovat pizda and enjoy the wind !
+                <div>
+                  <span>Make a request</span>
+                  <div>Do it on Whatsapp or via the best way which is most comofrtable for you!
+                  </div>
                 </div>
               </div>
               <div> 
-                <img src={weels} alt='2'/>
-                <span>Jaguar F-Type Cabrio</span>
-                <div>Amazing car to drive and enjoy views of the beautiful
-                      ebat togo rot bratislava.
-                      Feel free to gazovat pizda and enjoy the wind !
+                <img src={weels} alt='3'/>
+                <div>
+                  <span>Make a request</span>
+                  <div>Do it on Whatsapp or via the best way which is most comofrtable for you!
+                  </div>
                 </div>
               </div>
             </div>
