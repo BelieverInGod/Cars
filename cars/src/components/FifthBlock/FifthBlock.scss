@@ -6,96 +6,137 @@
     background: #020101;
     height: 676px;
     border-bottom: 1px solid #FCE488;
-
-    .titleContactUsContainer {
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 28px;
-        color: #E0E0E0;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        img {
-            margin-left: 25px;
-            margin-right: 15px;
-            width: 32px;
-            height: 30px;
-        }
-    }
-    .sendMessageContainer {
+    
+    .allInfoFifth {
+        margin-top: 100px;
         display: flex;
         flex-direction: column;
-        background: rgba($color: #000000, $alpha: 0.4);
-        border-radius: 4px;
-        width: 327px;
-        height: 376px;
-        box-sizing: border-box;
-        border: 1px solid rgba($color: Gold, $alpha: 0.4);
-        font-family: 'Ubuntu';
-        color: #FFFFFF;
-
-        .title {
+        align-items: center;
+        justify-content: flex-start;
+        height: 100%;
+        width: 1250px;
+            
+        .titleContactUsContainer {
+            margin-left: 30px;
+            width: 100%;
+            font-family: 'Ubuntu';
             font-style: normal;
             font-weight: 500;
-            font-size: 15px;
-            line-height: 17px;
+            font-size: 24px;
+            line-height: 28px;
+            color: #E0E0E0;
             display: flex;
-            justify-content: space-evenly;
             flex-direction: row;
-            margin-top: 28px;
-            .titleImg {
-                background: url(../../assets/images/carlogo.png);
-                width: 41px;
-                height: 28px;
-            }
-            .titleText {
-                span{
-                    font-size: 12px;
-                    line-height: 14px;
-                    font-weight: 400;
-                    color: rgba(255, 255, 255, 0.5);
-                }
+            img {
+                margin-left: 25px;
+                margin-right: 15px;
+                width: 32px;
+                height: 30px;
             }
         }
-        .inputsContainer {
+        .fifthInfoContainer {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            align-items: center;
             justify-content: space-around;
-            margin: 25px;
-            input {
-                margin-top: 10px;
-                width: 275px;
-                height: 40px;
-                background: #F7F7F7;
-                border-radius: 2px;
-                border: 0;
-                cursor: pointer;
-            }
-            .yourText {
-                height: 96px;
-            }
+            width: 1200px;
 
-            button {
-                width: 279px;
-                height: 40px;
-                background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
-                border-radius: 2px;
-                font-family: 'Ubuntu';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 16px;
-                color: #000000;
-                margin-top: 10px;
-                border: none;
-                cursor: pointer;
-                transition: all .2s ease-in-out;               
+            .mapInfo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                div {
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: rgba(255, 255, 255, 0.5)
+                }
+                span {
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: rgba(255, 255, 255, 0.8);
+                }
             }
-            button:hover {
-                transform: scale(1.01);
-                transition: .2s;              
+            .sendMessageContainer {
+                display: flex;
+                flex-direction: column;
+                background: rgba($color: #000000, $alpha: 0.4);
+                border-radius: 4px;
+                width: 327px;
+                height: 376px;
+                box-sizing: border-box;
+                border: 1px solid rgba($color: Gold, $alpha: 0.4);
+                font-family: 'Ubuntu';
+                color: #FFFFFF;
+
+                .title {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 17px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-direction: row;
+                    margin-top: 28px;
+                    .titleImg {
+                        background: url(../../assets/images/carlogo.png);
+                        width: 41px;
+                        height: 28px;
+                    }
+                    .titleText {
+                        span{
+                            font-size: 12px;
+                            line-height: 14px;
+                            font-weight: 400;
+                            color: rgba(255, 255, 255, 0.5);
+                        }
+                    }
+                }
+                .inputsContainer {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    margin: 25px;
+                    input {
+                        margin-top: 10px;
+                        width: 275px;
+                        height: 40px;
+                        background: #F7F7F7;
+                        border-radius: 2px;
+                        border: 0;
+                        cursor: pointer;
+                    }
+                    .yourText {
+                        height: 96px;
+                    }
+
+                    button {
+                        width: 279px;
+                        height: 40px;
+                        background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
+                        border-radius: 2px;
+                        font-family: 'Ubuntu';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #000000;
+                        margin-top: 10px;
+                        border: none;
+                        cursor: pointer;
+                        transition: all .2s ease-in-out;               
+                    }
+                    button:hover {
+                        transform: scale(1.01);
+                        transition: .2s;              
+                    }
+                }
             }
         }
     }
