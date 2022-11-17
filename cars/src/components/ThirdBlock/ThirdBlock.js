@@ -6,6 +6,7 @@ function ThirdBlock() {
   return (
     <div className="ThirdBlock">
       <div>
+        
         <div className='titleAdvantagesContainer'>
           <img src={star} alt='star'/>
           Our Advantages
