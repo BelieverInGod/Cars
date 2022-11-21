@@ -4,7 +4,7 @@ import carImg from '../../assets/images/mersedes.png'
 import weels from '../../assets/images/weels.png'
 import tap from '../../assets/images/tap.png'
 import draw from '../../assets/images/draw.png'
-
+import arrow from '../../assets/images/arrow.png'
 
 
 function FourthBlock() {
@@ -39,6 +39,7 @@ function FourthBlock() {
                   </div>
                 </div>
               </div>
+              <img src={arrow} alt='arrow' className='arrow'/>
               <div>
                 <img src={tap} alt='2'/>
                 <div>
@@ -47,6 +48,7 @@ function FourthBlock() {
                   </div>
                 </div>
               </div>
+              <img src={arrow} alt='arrow' className='arrow'/>
               <div> 
                 <img src={weels} alt='3'/>
                 <div>

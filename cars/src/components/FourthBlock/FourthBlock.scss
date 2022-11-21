@@ -71,7 +71,12 @@
             display:  flex;
             justify-content: space-around;
             flex-direction: row;
-            
+
+            .arrow {
+                margin-top: 44px;
+                width: 18px;
+                height: 30px;
+            }
             div {
                 padding-top: 5px;
                 align-items: center;

@@ -1,5 +1,8 @@
 .ThirdBlock {
     background: url(../../assets/images/12121212.png), #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 430px;
     display: flex;
     flex-direction: row;
