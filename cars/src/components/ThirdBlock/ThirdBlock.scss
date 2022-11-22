@@ -53,30 +53,32 @@
                     width: 90.58px;
                     height: 47.05px;
                 }
-                span {
-                    margin-top: 40px;
-                    width: 180px;
-                    font-family: 'Ubuntu';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 18px;
-                    line-height: 21px;
-                    background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    background-clip: text;           
-                }
-                div {
-                    text-align: start;
-                    margin-top: 20px;
-                    width: 160px;
-                    padding-left: 15px;
-                    font-family: 'Ubuntu';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 12px;
-                    line-height: 14px;
-                    color: #FFFFFF;
+                .advantageTxt {
+                    span {
+                        margin-top: 40px;
+                        width: 180px;
+                        font-family: 'Ubuntu';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 21px;
+                        background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        background-clip: text;           
+                    }
+                    div {
+                        text-align: start;
+                        margin-top: 20px;
+                        width: 160px;
+                        padding-left: 15px;
+                        font-family: 'Ubuntu';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        color: #FFFFFF;
+                    }
                 }
                 transition: all .2s ease-in-out;               
             }
@@ -85,12 +87,45 @@
                 transition: .2s;              
             }
         }
+        @media screen and (max-width: 560px) {
+            .advantagesBocksContaineer {
+                transition: 2s;
+                flex-wrap: wrap;
+                .advantageBlock {
+                    width: 100px;
+                    height: 100px;
+                    flex-direction: row;
+                    img {
+                        width: 42px;
+                        height: 22px;
+                    }
+                    .advantageTxt {
+                        span {
+                            font-weight: 700;
+                            font-size: 7.11805px;
+                            line-height: 8px;
+                        }
+                        div {
+                            font-weight: 400;
+                            font-size: 7.11805px;
+                            line-height: 8px; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 560px) {
+        div {
+            width: 380px;
+            transition: 2s;
+        }
     }
 }
 
-// @media screen and (max-width: 560px) {
-//     .ThirdBlock {
-//         height: 500px;
-//         transition: 2s;
-//     }
-// }
+@media screen and (max-width: 560px) {
+    .ThirdBlock {
+        height: 270px;
+        transition: 2s;
+    }
+}

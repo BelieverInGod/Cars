@@ -84,12 +84,10 @@
                 }
             }
         }
+
         .bestAvilableContainer {
             width: 250px;
             height: 376px;
-        }
-
-        .bestAvilableContainer {
             margin-top: 140px;
             font-family: 'Ubuntu';
             font-family: 'Ubuntu';
@@ -147,6 +145,12 @@
                 }
             }
         }
+        @media screen and (max-width: 560px) {
+            .bestAvilableContainer {
+                margin-top: 50px;
+            }
+        }
+
     }
     @media screen and (max-width: 560px) {
         .rentInfoContainer {
@@ -165,7 +169,9 @@
 }
 @media screen and (max-width: 560px) {
     .FirstBlock {
-        height: 900px ;
+        height: 800px ;
         transition: 2s;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }

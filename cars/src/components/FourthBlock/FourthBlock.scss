@@ -57,9 +57,29 @@
                     line-height: 150%;
                     color: rgba(255, 255, 255, 0.8);
                 }
+                @media screen and (max-width: 560px) {
+                    .info {
+                        width: 273px;
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 150%;
+                    }
+                }
             }
             .fourthDecoration {
                 flex-basis: 50%;
+            }
+            @media screen and (max-width: 560px) {
+                .fourthDecoration {
+                    display: none;
+                    height: 0;
+                    width: 0;
+                }
+            }
+        }
+        @media screen and (max-width: 560px) {
+            .fourthDecorationInfo{
+                align-items: baseline;
             }
         }
     
@@ -116,5 +136,37 @@
                 }
             }
         }
+        @media screen and (max-width: 560px) {
+            .absoluteBox {
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                bottom: 0;
+                position: relative;
+                z-index: 1;
+                width: 380px;
+                div {
+                    width: 273px;
+                    height: 89px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 560px) {
+        .FourthBlockAllContainer {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 380px;
+            transition: 2s;
+        }
+    }
+}
+@media screen and (max-width: 560px) {
+    .FourthBlock {
+        height: 670px;
+        transition: 2s;
     }
 }
