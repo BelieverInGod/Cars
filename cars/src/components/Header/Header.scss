@@ -89,5 +89,31 @@
                 background: #161616;
             }
         }
+
+        @media screen and (max-width: 560px) {
+            .phoneContainer {
+                display: none;
+            }
+            .navigationContainer {
+                display: none;
+            }
+            // .languageContainer {
+            //     display: ;
+            // }
+        }
+        
     }  
+    
+    @media screen and (max-width: 560px) {
+        .headerInfoContainer {
+            max-width: 600px;
+            min-width: 380px;
+            transition: 2s;
+        }
+    }
+}
+@media screen and (max-width: 560px) {
+    .Header {
+        transition: 2s;
+    }
 }

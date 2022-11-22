@@ -138,8 +138,34 @@
                 transition: .2s;              
             }
 
+            @media screen and (max-width: 560px) {
+                .carImage {
+                    img {
+                        width: 279px;
+                        height: 158px;
+                    }
+                }
+            }
         }
     }
-
-
+    @media screen and (max-width: 560px) {
+        .rentInfoContainer {
+            max-width: 600px;
+            min-width: 600px;
+            flex-direction: column;
+            transition: 2s;
+        }
+        .carImage {
+            img {
+                width: 279px;
+                height: 158px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 560px) {
+    .FirstBlock {
+        height: 900px ;
+        transition: 2s;
+    }
 }

@@ -35,14 +35,16 @@
                     height: 30px;
                 }
             }
-            span {
-                margin-top: 10px;
-                font-family: 'Ubuntu';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 18px;
-                color: rgba(255, 255, 255, 0.5);
+            .typeCar {
+                span {
+                    margin-top: 10px;
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: rgba(255, 255, 255, 0.5);
+                }
             }
         }
 
@@ -97,6 +99,73 @@
                 transition: .2s;              
             }
         }
+        @media screen and (max-width: 560px) {
+            .typesInfoBlockContainer {
+                transition: 2s;
+                flex-wrap: wrap;
+                margin-bottom: 50px;
+                .typesInfoBlock {
+                    margin: 10px;
+                    width: 129.57px;
+                    height: 139px;
+                    img {
+                        width: 76.73px;
+                        height: 36.48px;
+                    }
+                    span {
+                        font-weight: 500;
+                        font-size: 10px;
+                        line-height: 11px;
+                    }
+                    div {
+                        font-weight: 400;
+                        font-size: 6px;
+                        line-height: 150%;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
     
+    }
+    @media screen and (max-width: 560px) {
+        .carParkContainer {
+            margin-top: 50px;
+            flex-direction: column;
+            min-width: 600px;
+            max-width: 600px;
+            transition: 2s;
+            .type {
+                width: 380px;
+                flex-direction: column;
+                .typeCar {
+                    span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 10px;
+                        width: 93px;
+                        height: 30px;
+                        border: 1px solid #FCE386;
+                        box-sizing: border-box;
+                        background: rgba(217, 217, 217, 0.1);
+                        border-radius: 3px;
+                        font-family: 'Ubuntu';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 11px;
+                        color: #FFFFFF;
+                    }
+                }
+
+            }
+        }
+    }
+}
+@media screen and (max-width: 560px) {
+    .SecondBlock {
+        height: auto;
+        transition: 2s;
     }
 }

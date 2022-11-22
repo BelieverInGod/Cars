@@ -41,8 +41,8 @@ function FirstBlock() {
                 </div>
                 <button>Check the car</button>
             </div>
-            <div>
-                <img src={carImg} alt="car" />
+            <div className='carImage'>
+                <img src={carImg} alt="car"/>
             </div>
         </div>
     </div>

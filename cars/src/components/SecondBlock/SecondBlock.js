@@ -9,13 +9,23 @@ function SecondBlock() {
           <div>
             <div/>
             Car Park
-          </div>
-          <span>Mercedes Benz</span>
-          <span>Range Rover</span>
-          <span>Jaguar</span>
-          <span>BMW</span>
+            </div>
+            <div className='typeCar'>
+              <span>Mercedes Benz</span>
+              <span>Range Rover</span>
+              <span>Jaguar</span>
+              <span>BMW</span>
+            </div>
         </div>
         <div className='typesInfoBlockContainer'>
+          <div className='typesInfoBlock'>
+            <img src={sceletonCar} alt='2'/>
+            <span>Jaguar F-Type Cabrio</span>
+            <div>Amazing car to drive and enjoy views of the beautiful
+                  ebat togo rot bratislava.
+                  Feel free to gazovat pizda and enjoy the wind !
+               </div>
+          </div>
           <div className='typesInfoBlock'>
             <img src={sceletonCar} alt='2'/>
             <span>Jaguar F-Type Cabrio</span>
