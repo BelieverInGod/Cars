@@ -58,6 +58,9 @@
                     color: rgba(255, 255, 255, 0.8);
                 }
                 @media screen and (max-width: 560px) {
+                    .title {
+                        margin-top: 50px;
+                    }
                     .info {
                         width: 273px;
                         font-weight: 400;
@@ -155,7 +158,7 @@
     @media screen and (max-width: 560px) {
         .FourthBlockAllContainer {
             padding-top: 50px;
-            padding-bottom: 50px;
+            padding-bottom: 100px;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -166,7 +169,7 @@
 }
 @media screen and (max-width: 560px) {
     .FourthBlock {
-        height: 670px;
+        height: 700px;
         transition: 2s;
     }
 }

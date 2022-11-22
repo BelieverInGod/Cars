@@ -74,6 +74,11 @@
                     margin-left: 0;
                 }
             }
+            @media screen and (max-width: 560px) {
+                .mapInfo {
+                    display: none;
+                }
+            }
             .sendMessageContainer {
                 display: flex;
                 flex-direction: column;
@@ -148,6 +153,48 @@
                         transition: .2s;              
                     }
                 }
+            }
+
+            .mobileInfoPlus {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 380px;
+                margin-left: 25px;
+                div {
+                    margin-top: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    width: 100%;
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: rgba(255, 255, 255, 0.5)
+                }
+                span {
+                    margin-left: 10px;
+                    font-family: 'Ubuntu';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: rgba(255, 255, 255, 0.8);
+                }
+                img {
+                    margin-top: 50px;
+                    margin-left: 0;
+                }
+            }
+        }
+        @media screen and (max-width: 560px) {
+            .fifthInfoContainer {
+                width: 380px;
+                padding: 50px;
+                flex-direction: column;
             }
         }
     }
