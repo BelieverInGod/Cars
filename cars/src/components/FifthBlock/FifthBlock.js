@@ -1,6 +1,7 @@
 import './FifthBlock.scss';
 import contactUs from '../../assets/images/contactUs.png'
 import map from '../../assets/images/simple-google-map.png'
+import OurGoogleMap from './GoogleMap'
 
 
 function FifthBlock() {
@@ -17,7 +18,8 @@ function FifthBlock() {
           <div className="mapInfo">
             <div>We are located by the adress:<span>Viena, Austria, Rovnogo Chela St. 23/45</span></div>
             <div>Feel free to call or whatsup us:<span>+38 095 555-23-23</span></div>
-            <img src={map} alt='map'/>
+            {/* <img src={map} alt='map'/> */}
+            <OurGoogleMap></OurGoogleMap>
           </div>
 
           <div className='sendMessageContainer'>
