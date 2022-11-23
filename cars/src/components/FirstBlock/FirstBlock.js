@@ -1,5 +1,6 @@
 import './FirstBlock.scss';
-import carImg from '../../assets/images/car.png'
+import carImg from '../../assets/images/car.png';
+import Swiper from './Swiper'
 
 function FirstBlock() {
   return (
@@ -42,7 +43,7 @@ function FirstBlock() {
                 <button>Check the car</button>
             </div>
             <div className='carImage'>
-                <img src={carImg} alt="car"/>
+                <Swiper/>
             </div>
         </div>
     </div>
