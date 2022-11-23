@@ -36,6 +36,8 @@
                 }
             }
             .typeCar {
+                display: flex;
+                flex-direction: column;
                 span {
                     margin-top: 10px;
                     font-family: 'Ubuntu';
