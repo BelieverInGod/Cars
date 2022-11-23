@@ -1,5 +1,6 @@
 import './SecondBlock.scss';
 import sceletonCar from '../../assets/images/secondSkeleton.png'
+import {NavLink} from "react-router-dom";
 
 function SecondBlock() {
   return (
@@ -11,10 +12,26 @@ function SecondBlock() {
             Car Park
             </div>
             <div className='typeCar'>
-              <span>Mercedes Benz</span>
-              <span>Range Rover</span>
-              <span>Jaguar</span>
-              <span>BMW</span>
+              <NavLink
+                className={({isActive}) => isActive ? 'active-link' : ''}
+                to={`/1`}
+                >Mercedes Benz
+                </NavLink>
+                <NavLink
+                className={({isActive}) => isActive ? 'active-link' : ''}
+                to={`/2`}
+                >Range Rover
+                </NavLink>
+                <NavLink
+                className={({isActive}) => isActive ? 'active-link' : ''}
+                to={`/3`}
+                >Jaguar
+                </NavLink>
+                <NavLink
+                className={({isActive}) => isActive ? 'active-link' : ''}
+                to={`/:id/1`}
+                >BMW
+                </NavLink>
             </div>
         </div>
         <div className='typesInfoBlockContainer'>
