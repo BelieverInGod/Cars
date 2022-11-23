@@ -36,7 +36,7 @@ function FifthBlock() {
                     <button>search</button>
                   </div>
           </div>
-          
+
           <div className="mobileInfoPlus">
             <div>We are located by the adress:<span>Viena, Austria, Rovnogo Chela St. 23/45</span></div>
             <div>Feel free to call or whatsup us:<span>+38 095 555-23-23</span></div>

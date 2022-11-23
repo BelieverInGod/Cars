@@ -76,9 +76,14 @@
             font-size: 14px;
             line-height: 16px;
             color: rgba(255, 255, 255, 0.55);
-            div {
+            a {
                 cursor: pointer;
                 margin-right: 20px;
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.55);
+            }
+            .active-link {
+                color: rgba(255, 255, 255, 0.95);
             }
         }
         .languageContainer {

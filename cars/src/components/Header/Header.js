@@ -1,6 +1,19 @@
 import './Header.scss';
+import {NavLink} from "react-router-dom";
+// import React, {useState, useEffect} from 'react'
 
 function Header() {
+
+    // const addActiveClass = e => {
+    //     const foo = document.querySelectorAll(".tab");
+        
+    //     for (let i = 0; i < foo.length; i++) {
+    //       foo[i].classList.remove("active");
+    //     }
+    
+    //     e.currentTarget.classList.add("active");
+    //   };
+
   return (
     <div className="Header">
         <div className='headerInfoContainer'>        
@@ -20,9 +33,21 @@ function Header() {
                 </div>
             </div>
             <div className='navigationContainer'>
-                <div>Cars</div>
-                <div>About Us</div>
-                <div>How to book?</div>
+                <NavLink
+                className={({isActive}) => isActive ? 'active-link' : ''}
+                to={`/1`}
+                >Cars
+                </NavLink>
+                <NavLink
+                className={({isActive}) => isActive ? 'active-link' : ''}
+                to={`/2`}
+                >About Us
+                </NavLink>
+                <NavLink
+                className={({isActive}) => isActive ? 'active-link' : ''}
+                to={`/3`}
+                >How to book?
+                </NavLink>
             </div>
             <div className='languageContainer'>
                 <select>
