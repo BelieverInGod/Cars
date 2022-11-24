@@ -44,6 +44,7 @@ function FirstBlock() {
             </div>
             <div className='carImage'>
                 <Swiper/>
+                <button>Check the car</button>
             </div>
         </div>
     </div>

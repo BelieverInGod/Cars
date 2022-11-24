@@ -16,6 +16,27 @@
         min-width: 1200px;
 
         .carImage {
+            button {
+                display: none;
+                width: 279px;
+                height: 40px;
+                background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
+                border-radius: 2px;
+                font-family: 'Ubuntu';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                color: #000000;
+                margin-top: 10px;
+                border: none;
+                cursor: pointer;
+                transition: all .2s ease-in-out;               
+            }
+            button:hover {
+                transform: scale(1.01);
+                transition: .2s;              
+            }
             .swiper {
                 overflow: hidden;
                 padding-left: 60px;
@@ -58,6 +79,27 @@
             }
             .swiper-pagination-bullet-active {
                 background: #FCE282;
+            }
+            @media screen and (max-width: 560px) {
+                button {
+                    display: block;
+                }
+                .swiper {
+                    height: 160px;
+                }
+                .swiper-wrapper {
+                    margin-left: 50px;
+                }
+                .swiper-button-prev {
+                    display: none;
+                }
+                .swiper-button-next {
+                    display: none;
+                }
+                .swiper-pagination {
+                    width: 100%;
+                    margin-top: 0;
+                }
             }
         }    
         .findRentContainer {
@@ -195,12 +237,21 @@
         @media screen and (max-width: 560px) {
             .bestAvilableContainer {
                 margin-top: 50px;
+                height: 100px;
+                margin-left: -100px;
+                div {
+                    margin-top: 5px;
+                }
+                button {
+                    display: none;
+                }
             }
         }
 
     }
     @media screen and (max-width: 560px) {
         .rentInfoContainer {
+            height: auto;
             max-width: 600px;
             min-width: 600px;
             flex-direction: column;
@@ -216,7 +267,7 @@
 }
 @media screen and (max-width: 560px) {
     .FirstBlock {
-        height: 800px ;
+        height: 1000px ;
         transition: 2s;
         padding-top: 50px;
         padding-bottom: 50px;
