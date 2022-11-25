@@ -5,6 +5,7 @@
     background-size: cover;
     height: 430px;
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: center;
     div{
@@ -15,6 +16,7 @@
         width: 1200px;
 
         .titleAdvantagesContainer {
+            margin-bottom: 50px;
             font-family: 'Ubuntu';
             font-style: normal;
             font-weight: 500;
