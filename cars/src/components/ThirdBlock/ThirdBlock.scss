@@ -11,7 +11,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 100%;
+        height: auto;
         width: 1200px;
 
         .titleAdvantagesContainer {
@@ -89,11 +89,17 @@
             }
         }
         @media screen and (max-width: 560px) {
+            .titleAdvantagesContainer {
+                height: 100px;
+            }
             .advantagesBocksContaineer {
+                height: auto;
+                flex-direction: row;
                 transition: 2s;
                 flex-wrap: wrap;
                 .advantageBlock {
-                    width: 100px;
+                    margin-right: 110px;
+                    width: 80px;
                     height: 100px;
                     flex-direction: row;
                     img {
@@ -119,14 +125,16 @@
     @media screen and (max-width: 560px) {
         div {
             width: 380px;
-            transition: 2s;
         }
     }
 }
-
 @media screen and (max-width: 560px) {
     .ThirdBlock {
-        height: 270px;
-        transition: 2s;
+        height: 280px;
+        padding-top: 50px;
+        div {
+            height: 100px; 
+        }
+        
     }
 }
