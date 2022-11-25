@@ -83,6 +83,7 @@
             @media screen and (max-width: 560px) {
                 button {
                     display: block;
+                    margin-left: 110px;
                 }
                 .swiper {
                     height: 160px;
@@ -97,7 +98,7 @@
                     display: none;
                 }
                 .swiper-pagination {
-                    width: 100%;
+                    width: 90%;
                     margin-top: 0;
                 }
             }
