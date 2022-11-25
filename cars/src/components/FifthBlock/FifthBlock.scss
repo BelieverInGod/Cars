@@ -212,6 +212,7 @@
     }
     @media screen and (max-width: 560px) {
         .allInfoFifth {
+            margin-left: -80px;
             width: 380px;
             transition: 2s;
         }
@@ -220,6 +221,7 @@
 @media screen and (max-width: 560px) {
     .FifthBlock {
         height: 600px;
+        width: 600px;
         transition: 2s;
     }
 }

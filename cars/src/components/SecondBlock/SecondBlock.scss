@@ -57,8 +57,7 @@
         .typesInfoBlockContainer{
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
-            width: 70%;
+            justify-content: space-between;
             .typesInfoBlock {
                 cursor: pointer;
                 display: flex;
@@ -110,9 +109,10 @@
                 transition: 2s;
                 flex-wrap: wrap;
                 margin-bottom: 50px;
+                margin-inline: 0px;
                 .typesInfoBlock {
                     margin: 10px;
-                    width: 129.57px;
+                    width: 130px;
                     height: 139px;
                     img {
                         width: 76.73px;
@@ -137,14 +137,17 @@
     @media screen and (max-width: 560px) {
         .carParkContainer {
             margin-top: 50px;
+            margin-left: -80px;
             flex-direction: column;
-            min-width: 600px;
-            max-width: 600px;
+            min-width: 380px;
+            max-width: 380px;
             transition: 2s;
             .type {
                 width: 380px;
                 flex-direction: column;
                 .typeCar {
+                    flex-wrap: wrap;
+                    width: 380px;
                     display: flex;
                     flex-direction: row;
                     a {
@@ -152,7 +155,7 @@
                         align-items: center;
                         justify-content: center;
                         margin: 10px;
-                        width: 93px;
+                        width: 90px;
                         height: 30px;
                         border: 1px solid #FCE386;
                         box-sizing: border-box;
