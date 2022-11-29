@@ -106,6 +106,7 @@
         }
         @media screen and (max-width: 560px) {
             .typesInfoBlockContainer {
+                width: 330px;
                 transition: 2s;
                 flex-wrap: wrap;
                 margin-bottom: 50px;
@@ -136,6 +137,8 @@
     }
     @media screen and (max-width: 560px) {
         .carParkContainer {
+            
+            display: block;
             margin-top: 50px;
             margin-left: -80px;
             flex-direction: column;
@@ -144,10 +147,14 @@
             transition: 2s;
             .type {
                 width: 380px;
+                margin-left: -5px;
                 flex-direction: column;
+                div {
+                    margin-left: 10px;
+                }
                 .typeCar {
                     flex-wrap: wrap;
-                    width: 380px;
+                    width: 330px;
                     display: flex;
                     flex-direction: row;
                     a {
