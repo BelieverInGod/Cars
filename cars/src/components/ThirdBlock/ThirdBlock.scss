@@ -93,6 +93,7 @@
         @media screen and (max-width: 560px) {
             .titleAdvantagesContainer {
                 height: 100px;
+                margin-bottom: 10px;   
             }
             .advantagesBocksContaineer {
                 height: auto;
@@ -132,10 +133,13 @@
 }
 @media screen and (max-width: 560px) {
     .ThirdBlock {
+        padding-top: 20px;
+        align-items: baseline;
         height: 280px;
         padding-top: 50px;
         div {
             height: 100px; 
+
         }
         
     }
