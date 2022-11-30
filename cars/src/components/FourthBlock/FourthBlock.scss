@@ -59,7 +59,7 @@
                 }
                 @media screen and (max-width: 560px) {
                     .title {
-                        margin-top: 50px;
+                        margin-top: 20px;
                     }
                     .info {
                         width: 300px;
@@ -163,8 +163,8 @@
     }
     @media screen and (max-width: 560px) {
         .FourthBlockAllContainer {
-            padding-top: 50px;
-            padding-bottom: 100px;
+            padding-top: 20px;
+            padding-bottom: 40px;
             display: flex;
             flex-direction: column;
             justify-content: space-around;

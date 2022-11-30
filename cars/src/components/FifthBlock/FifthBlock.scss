@@ -214,13 +214,16 @@
         @media screen and (max-width: 560px) {
             .fifthInfoContainer {
                 width: 330px;
-                padding: 50px;
+                padding: 20px;
                 flex-direction: column;
             }
         }
     }
     @media screen and (max-width: 560px) {
         .allInfoFifth {
+            margin-top: 0;
+            padding-top: 20px;
+            height: auto;
             width: 330px;
         }
     }
