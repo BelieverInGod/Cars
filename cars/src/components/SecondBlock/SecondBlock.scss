@@ -112,7 +112,7 @@
                 margin-bottom: 50px;
                 margin-inline: 0px;
                 .typesInfoBlock {
-                    margin: 10px;
+                    margin: 5px;
                     width: 130px;
                     height: 139px;
                     img {
@@ -142,14 +142,14 @@
             margin-top: 50px;
             margin-left: -80px;
             flex-direction: column;
-            min-width: 380px;
-            max-width: 380px;
+            min-width: 330px;
+            max-width: 330px;
             .type {
-                width: 380px;
+                width: 330px;
                 margin-left: -5px;
                 flex-direction: column;
                 div {
-                    margin-left: 10px;
+                    margin-left: 5px;
                 }
                 .typeCar {
                     flex-wrap: wrap;
@@ -160,7 +160,7 @@
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        margin: 10px;
+                        margin: 5px;
                         width: 90px;
                         height: 30px;
                         border: 1px solid #FCE386;
