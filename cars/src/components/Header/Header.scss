@@ -7,12 +7,12 @@
     .headerInfoContainer{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         // flex-wrap: wrap;
         height: 100%;
-        max-width: 1300px;
-        min-width: 1300px;
+        max-width: 1200px;
+        min-width: 1200px;
         .logoContainer {
             cursor: pointer;
             display: flex;
