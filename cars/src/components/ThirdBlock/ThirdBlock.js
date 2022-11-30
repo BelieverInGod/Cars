@@ -1,6 +1,11 @@
 import './ThirdBlock.scss';
 import star from '../../assets/images/star.png'
-import premiumPark from '../../assets/images/premiumCarPark.png'
+import washImg from '../../assets/images/car-wash.png'
+import driversImg from '../../assets/images/drivers.png'
+import headphonesImg from '../../assets/images/headphones.png'
+import guardsImg from '../../assets/images/guards.png'
+
+
 
 function ThirdBlock() {
   return (
@@ -14,7 +19,7 @@ function ThirdBlock() {
 
         <div className='advantagesBocksContaineer'>
         <div className='advantageBlock'>
-                <img src={premiumPark} alt='premiumCarParkImg'/>
+                <img src={washImg} alt='premiumCarParkImg'/>
                 <div className='advantageTxt'>
                   <span>Premium Car Park</span>
                   <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -23,7 +28,7 @@ function ThirdBlock() {
                 </div>
             </div>
             <div className='advantageBlock'>
-                <img src={premiumPark} alt='premiumCarParkImg'/>
+                <img src={driversImg} alt='premiumCarParkImg'/>
                 <div className='advantageTxt'>
                   <span>Premium Car Park</span>
                   <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -32,7 +37,7 @@ function ThirdBlock() {
                 </div>
             </div>
             <div className='advantageBlock'>
-                <img src={premiumPark} alt='premiumCarParkImg'/>
+                <img src={guardsImg} alt='premiumCarParkImg'/>
                 <div className='advantageTxt'>
                   <span>Premium Car Park</span>
                   <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -41,7 +46,7 @@ function ThirdBlock() {
                 </div>
             </div>
             <div className='advantageBlock'>
-                <img src={premiumPark} alt='premiumCarParkImg'/>
+                <img src={headphonesImg} alt='premiumCarParkImg'/>
                 <div className='advantageTxt'>
                   <span>Premium Car Park</span>
                   <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
