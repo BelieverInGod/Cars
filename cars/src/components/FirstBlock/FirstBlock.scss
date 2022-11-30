@@ -177,6 +177,11 @@
                 }
             }
         }
+        @media screen and (max-width: 560px) {
+            .findRentContainer {
+                margin-left: 10px;
+            }
+        }
 
         .bestAvilableContainer {
             margin-left: 50px;
