@@ -1,5 +1,4 @@
 import './FirstBlock.scss';
-import carImg from '../../assets/images/car.png';
 import Swiper from './Swiper'
 
 function FirstBlock() {

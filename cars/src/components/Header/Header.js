@@ -1,6 +1,7 @@
 import './Header.scss';
 import {NavLink} from "react-router-dom";
 import searchImg from '../../assets/images/search.png'
+import flag from '../../assets/images/Flag_of_Ukraine.png'
 import phoneImg from '../../assets/images/phoneImg.png'
 
 
@@ -48,8 +49,11 @@ function Header() {
                 </select>
                 <select>
                     <option>
+                        <img src={flag}/>
                     </option>
                 </select>
+                <img src={flag}/>
+
             </div>
             <div className='mobileSeachContainer'>
                 <img src={searchImg} className='searchImg'/>
