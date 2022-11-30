@@ -52,7 +52,7 @@ function Header() {
                         <img src={flag}/>
                     </option>
                 </select>
-                <img src={flag}/>
+                {/* <img src={flag}/> */}
 
             </div>
             <div className='mobileSeachContainer'>
