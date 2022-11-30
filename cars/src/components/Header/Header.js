@@ -1,18 +1,10 @@
 import './Header.scss';
 import {NavLink} from "react-router-dom";
-// import React, {useState, useEffect} from 'react'
+import searchImg from '../../assets/images/search.png'
+import phoneImg from '../../assets/images/phoneImg.png'
+
 
 function Header() {
-
-    // const addActiveClass = e => {
-    //     const foo = document.querySelectorAll(".tab");
-        
-    //     for (let i = 0; i < foo.length; i++) {
-    //       foo[i].classList.remove("active");
-    //     }
-    
-    //     e.currentTarget.classList.add("active");
-    //   };
 
   return (
     <div className="Header">
@@ -58,6 +50,10 @@ function Header() {
                     <option>
                     </option>
                 </select>
+            </div>
+            <div className='mobileSeachContainer'>
+                <img src={searchImg} className='searchImg'/>
+                <img src={phoneImg}/>
             </div>
         </div>
     </div>

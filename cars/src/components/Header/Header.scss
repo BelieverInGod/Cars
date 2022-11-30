@@ -94,6 +94,9 @@
                 background: #161616;
             }
         }
+        .mobileSeachContainer {
+            display: none;
+        }
 
         @media screen and (max-width: 560px) {
             .phoneContainer {
@@ -102,9 +105,15 @@
             .navigationContainer {
                 display: none;
             }
-            // .languageContainer {
-            //     display: ;
-            // }
+            .languageContainer {
+                display: none;
+            }
+            .mobileSeachContainer {
+                display: block;
+                .searchImg {
+                    margin-right: 20px;
+                }
+            }
         }
         
     }  
