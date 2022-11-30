@@ -113,12 +113,10 @@
         .headerInfoContainer {
             max-width: 600px;
             min-width: 380px;
-            transition: 2s;
         }
     }
 }
 @media screen and (max-width: 560px) {
     .Header {
-        transition: 2s;
     }
 }

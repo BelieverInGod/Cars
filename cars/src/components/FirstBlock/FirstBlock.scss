@@ -256,7 +256,6 @@
             max-width: 600px;
             min-width: 600px;
             flex-direction: column;
-            transition: 2s;
         }
         .carImage {
             img {
@@ -269,7 +268,6 @@
 @media screen and (max-width: 560px) {
     .FirstBlock {
         height: 800px ;
-        transition: 2s;
         padding-top: 50px;
         padding-bottom: 50px;
     }

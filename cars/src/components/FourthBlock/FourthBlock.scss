@@ -168,13 +168,11 @@
             flex-direction: column;
             justify-content: space-around;
             width: 380px;
-            transition: 2s;
         }
     }
 }
 @media screen and (max-width: 560px) {
     .FourthBlock {
         height: 700px;
-        transition: 2s;
     }
 }
