@@ -35,6 +35,11 @@
                 height: 30px;
             }
         }
+        @media screen and (max-width: 560px) {
+            .titleContactUsContainer {
+                margin-left: 0px;
+            }
+        }
         .fifthInfoContainer {
             display: flex;
             flex-direction: row;
@@ -171,7 +176,6 @@
                 margin-left: 25px;
                 div {
                     margin-top: 10px;
-                    display: flex;
                     align-items: center;
                     justify-content: flex-start;
                     width: 100%;
@@ -199,6 +203,11 @@
             @media screen and (max-width: 560px) {
                 .mobileInfoPlus {
                     display: flex ;
+                    width: 300px;
+                    margin-left: 0;
+                    div {
+                        flex-direction: column;
+                    }
                 }
             }
         }
@@ -212,14 +221,12 @@
     }
     @media screen and (max-width: 560px) {
         .allInfoFifth {
-            margin-left: -80px;
-            width: 380px;
+            width: 330px;
         }
     }
 }
 @media screen and (max-width: 560px) {
     .FifthBlock {
-        height: 600px;
-        width: 600px;
+      
     }
 }
