@@ -18,7 +18,7 @@
             flex-direction: row;
             align-items: center;
             height: 100%;
-    
+            justify-content: space-between;
     
             .titleHowWeWorkContainer {
                 width: 50%;
@@ -71,6 +71,7 @@
             }
             .fourthDecoration {
                 flex-basis: 50%;
+                display: contents;
             }
             @media screen and (max-width: 560px) {
                 .fourthDecoration {
@@ -90,9 +91,9 @@
             bottom: -15%;
             position: absolute;
             z-index: 1;
-            width: 1150px;
+            width: 1200px;
             display:  flex;
-            justify-content: space-around;
+            justify-content: space-between;
             flex-direction: row;
 
             .arrow {
@@ -101,7 +102,8 @@
                 height: 30px;
             }
             div {
-                padding-top: 5px;
+                padding-top: 10px;
+                padding-bottom: 5px;
                 align-items: center;
                 display:  flex;
                 justify-content: center;
@@ -112,9 +114,7 @@
                 background: linear-gradient(242.53deg, #F8D65F 2.76%, #FEEA9A 51.48%, #FFCD4E 98.79%);
 
                 img {
-
                     width: 57px;
-                    height: 57px;
                 }
                 div {
                     background: none;
@@ -155,6 +155,7 @@
                     transform: rotate(90deg);
                 }
                 div {
+                    padding-top: 5px;
                     width: 300px;
                     height: 89px;
                 }
