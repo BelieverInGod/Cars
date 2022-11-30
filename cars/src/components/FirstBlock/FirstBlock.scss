@@ -83,11 +83,12 @@
             @media screen and (max-width: 560px) {
                 button {
                     display: block;
-                    margin-left: 170px;
+                    margin-left: 20px;
                 }
                 .swiper {
+                    width: 330px;
                     height: 160px;
-                    margin-left: 60px;
+                    margin-left: -95px;
                 }
                 .swiper-wrapper {
                     margin-left: 50px;
@@ -100,6 +101,7 @@
                 }
                 .swiper-pagination {
                     width: 90%;
+                    margin-left: 70px;
                     margin-top: 0;
                 }
             }
@@ -254,8 +256,8 @@
     @media screen and (max-width: 560px) {
         .rentInfoContainer {
             height: auto;
-            max-width: 600px;
-            min-width: 600px;
+            max-width: 330px;
+            min-width: 330px;
             flex-direction: column;
         }
         .carImage {
