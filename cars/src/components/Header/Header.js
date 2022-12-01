@@ -24,7 +24,7 @@ function Header() {
                 <div className='logo'>
                 </div>
                 <div className='logoText'>
-                    <div>Group</div>
+                    <div>GROUP</div>
                     <span>Car Rental</span>
                 </div>
             </div>
