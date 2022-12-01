@@ -1,16 +1,26 @@
+import React, { useState } from "react";
 import './Header.scss';
 import {NavLink} from "react-router-dom";
 import searchImg from '../../assets/images/search.png'
 import flag from '../../assets/images/Flag_of_Ukraine.png'
 import phoneImg from '../../assets/images/phoneImg.png'
+import burger from '../../assets/images/burger.png'
+
+import BurgerMenu from './BugerMenu';
 
 
 function Header() {
+    const [isActive, setActive] = useState("false");
+
+    const handleToggle = () => {
+        setActive(!isActive);
+      };
 
   return (
     <div className="Header">
         <div className='headerInfoContainer'>        
             <div className='logoContainer'>
+                <img onClick={handleToggle} src={burger} className='burgerImg'/>
                 <div className='logo'>
                 </div>
                 <div className='logoText'>
@@ -60,6 +70,7 @@ function Header() {
                 <img src={phoneImg}/>
             </div>
         </div>
+        <BurgerMenu isActive={isActive}  />
     </div>
   );
 }
