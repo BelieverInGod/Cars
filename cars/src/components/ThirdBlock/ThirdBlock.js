@@ -30,7 +30,7 @@ function ThirdBlock() {
             <div className='advantageBlock'>
                 <img src={driversImg} alt='premiumCarParkImg'/>
                 <div className='advantageTxt'>
-                  <span>Premium Car Park</span>
+                  <span>Experienced Drivers</span>
                   <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                   </div>
@@ -39,7 +39,7 @@ function ThirdBlock() {
             <div className='advantageBlock'>
                 <img src={guardsImg} alt='premiumCarParkImg'/>
                 <div className='advantageTxt'>
-                  <span>Premium Car Park</span>
+                  <span>Confidence Guarant</span>
                   <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                   </div>
@@ -48,7 +48,7 @@ function ThirdBlock() {
             <div className='advantageBlock'>
                 <img src={headphonesImg} alt='premiumCarParkImg'/>
                 <div className='advantageTxt'>
-                  <span>Premium Car Park</span>
+                  <span>24/7 Live Support</span>
                   <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                   </div>
