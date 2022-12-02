@@ -41,6 +41,7 @@
             box-sizing: border-box;
 
             .advantageBlock {
+                margin-right: 10px;
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
@@ -57,7 +58,7 @@
                     width: 150px;
                     span {
                         margin-top: 40px;
-                        width: 155px;
+                        width: 175px;
                         font-family: 'Ubuntu';
                         font-style: normal;
                         font-weight: 700;
@@ -71,8 +72,7 @@
                     div {
                         text-align: start;
                         margin-top: 20px;
-                        width: 160px;
-                        padding-left: 10px;
+                        width: 175px;
                         font-family: 'Ubuntu';
                         font-style: normal;
                         font-weight: 400;
@@ -99,8 +99,7 @@
                 flex-direction: row;
                 flex-wrap: wrap;
                 .advantageBlock {
-                    margin-right: 110px;
-                    width: 50px;
+                    width: 150px;
                     height: 100px;
                     flex-direction: row;
                     img {
