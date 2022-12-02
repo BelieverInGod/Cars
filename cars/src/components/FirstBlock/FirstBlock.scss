@@ -129,7 +129,7 @@
                 flex-direction: row;
                 margin-top: 28px;
                 .titleImg {
-                    background: url(../../assets/images/carlogo.png);
+                    background: url(../../assets/images/car.svg);
                     width: 41px;
                     height: 28px;
                 }
@@ -146,8 +146,15 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
+                align-items: center;
+
                 margin: 25px;
-                select {
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .info {
                     color: black;
                     margin-top: 10px;
                     width: 279px;
@@ -155,7 +162,16 @@
                     background: #F7F7F7;
                     border-radius: 2px;
                     cursor: pointer;
-                    
+                    img {
+                        padding-inline: 10px;
+                    }
+                    span {
+                        font-family: 'Ubuntu';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
                 }
                 button {
                     width: 279px;
@@ -207,7 +223,7 @@
                 margin-right: 5px;
                 .newImage {
                     cursor: pointer;
-                    background: url('../../assets/images/new.png');
+                    background: url('../../assets/images/new.svg');
                     width: 39px;
                     height: 39px;
                 }

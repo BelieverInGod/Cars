@@ -1,5 +1,5 @@
 import './SecondBlock.scss';
-import sceletonCar from '../../assets/images/secondSkeleton.png'
+import jaguar from '../../assets/images/jaguar.svg'
 import {NavLink} from "react-router-dom";
 
 function SecondBlock() {
@@ -36,7 +36,7 @@ function SecondBlock() {
         </div>
         <div className='typesInfoBlockContainer'>
           <div className='typesInfoBlock'>
-            <img src={sceletonCar} alt='2'/>
+            <img src={jaguar} alt='2'/>
             <span>Jaguar F-Type Cabrio</span>
             <div>Amazing car to drive and enjoy views of the beautiful
                   ebat togo rot bratislava.
@@ -44,7 +44,7 @@ function SecondBlock() {
                </div>
           </div>
           <div className='typesInfoBlock'>
-            <img src={sceletonCar} alt='2'/>
+            <img src={jaguar} alt='2'/>
             <span>Jaguar F-Type Cabrio</span>
             <div>Amazing car to drive and enjoy views of the beautiful
                   ebat togo rot bratislava.
@@ -52,7 +52,7 @@ function SecondBlock() {
                </div>
           </div>
           <div className='typesInfoBlock'>
-            <img src={sceletonCar} alt='2'/>
+            <img src={jaguar} alt='2'/>
             <span>Jaguar F-Type Cabrio</span>
             <div>Amazing car to drive and enjoy views of the beautiful
                   ebat togo rot bratislava.
@@ -60,7 +60,7 @@ function SecondBlock() {
                </div>
           </div>
           <div className='typesInfoBlock'>
-            <img src={sceletonCar} alt='2'/>
+            <img src={jaguar} alt='2'/>
             <span>Jaguar F-Type Cabrio</span>
             <div>Amazing car to drive and enjoy views of the beautiful
                   ebat togo rot bratislava.

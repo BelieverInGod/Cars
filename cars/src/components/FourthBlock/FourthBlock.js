@@ -1,9 +1,9 @@
 import './FourthBlock.scss';
-import howWeWork from '../../assets/images/HowWeWork.png'
-import carImg from '../../assets/images/mersedes.png'
-import weels from '../../assets/images/weels.png'
-import tap from '../../assets/images/Group.png'
-import draw from '../../assets/images/request.png'
+import howWeWork from '../../assets/images/How.svg'
+import carImg from '../../assets/images/mersedes.svg'
+import weels from '../../assets/images/weels.svg'
+import tap from '../../assets/images/tap.svg'
+import draw from '../../assets/images/make.svg'
 import arrow from '../../assets/images/arrow.png'
 
 

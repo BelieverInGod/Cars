@@ -1,6 +1,5 @@
 import './FifthBlock.scss';
-import contactUs from '../../assets/images/contactUs.png'
-import map from '../../assets/images/simple-google-map.png'
+import contactUs from '../../assets/images/visitUs.svg'
 import OurGoogleMap from './GoogleMap'
 
 

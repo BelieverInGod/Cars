@@ -1,6 +1,6 @@
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import carImg from '../../assets/images/car.png';
+import carImg from '../../assets/images/range.svg';
 
 
 import 'swiper/css';

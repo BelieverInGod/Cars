@@ -1,9 +1,9 @@
 import './ThirdBlock.scss';
-import star from '../../assets/images/star.png'
-import washImg from '../../assets/images/car-wash.png'
-import driversImg from '../../assets/images/drivers.png'
-import headphonesImg from '../../assets/images/headphones.png'
-import guardsImg from '../../assets/images/guards.png'
+import star from '../../assets/images/star.svg'
+import washImg from '../../assets/images/car-wash.svg'
+import driversImg from '../../assets/images/driver.svg'
+import headphonesImg from '../../assets/images/headphones.svg'
+import guardsImg from '../../assets/images/guards.svg'
 
 
 

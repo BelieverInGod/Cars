@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import './Header.scss';
 import {NavLink} from "react-router-dom";
 import searchImg from '../../assets/images/search.png'
-import flag from '../../assets/images/Flag_of_Ukraine.png'
-import phoneImg from '../../assets/images/phoneImg.png'
-import burger from '../../assets/images/burger.png'
+import flag from '../../assets/images/Flag_of_Ukraine.svg'
+import phoneImg from '../../assets/images/telephone.svg'
+import burger from '../../assets/images/Бургер.svg'
+import arrowFordropdown from '../../assets/images/forDropdown.svg'
 
 import BurgerMenu from './BugerMenu';
 
@@ -57,12 +58,11 @@ function Header() {
                     <option>USD $</option>
                     <option>UAH ₴</option>
                 </select>
-                <select>
-                    <option>
-                        <img src={flag}/>
-                    </option>
-                </select>
-                {/* <img src={flag}/> */}
+
+                <div className="dropdown_triger" >
+                    <img src={flag} className='flag'/>
+                    <img src={arrowFordropdown} />
+                </div>
 
             </div>
             <div className='mobileSeachContainer'>

@@ -1,5 +1,9 @@
 import './FirstBlock.scss';
 import Swiper from './Swiper'
+import calendar from '../../assets/images/calendar.svg'
+import locationSvg from '../../assets/images/location.svg'
+import arrowFordropdown from '../../assets/images/forDropdown.svg'
+
 
 function FirstBlock() {
   return (
@@ -14,18 +18,34 @@ function FirstBlock() {
                     </div>
                 </div>
                 <div className='inputsContainer'>
-                        <select>
-                            <option>Rent date start</option>
-                        </select>
-                        <select>
-                            <option>Rent date end</option>
-                        </select>
-                        <select>
-                            <option>Pick-up spot</option>
-                        </select>
-                        <select>
-                            <option>Return spot</option>
-                        </select>
+                        <div className='info'>
+                            <div>
+                                <img src={calendar} className={'calendar'} />
+                                <span>Rent date start</span>
+                            </div>
+                            <img src={arrowFordropdown} className={'arrowFordropdown'} />
+                        </div>
+                        <div className='info'>
+                            <div>
+                                <img src={calendar} className={'calendar'} />
+                                <span>Rent date end</span>
+                            </div>
+                            <img src={arrowFordropdown} className={'arrowFordropdown'} />
+                        </div>
+                        <div className='info'>
+                            <div>
+                                <img src={locationSvg} className={'locationSvg'} />
+                                <span>Pick-up spot</span>
+                            </div>
+                            <img src={arrowFordropdown} className={'arrowFordropdown'} />
+                        </div>
+                        <div className='info'>
+                            <div>
+                                <img src={locationSvg} className={'locationSvg'} />
+                                <span>Return spot</span>
+                            </div>
+                            <img src={arrowFordropdown} className={'arrowFordropdown'} />
+                        </div>
 
                         <button>Find a car!</button>
                     </div>

@@ -54,6 +54,24 @@
                     color: rgba(255, 255, 255, 0.55);
                     border-radius: 3px;
                     background: #161616;
+                    border: none;
+                }
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 56px;
+                    height: 30px;
+                    padding-inline: 5px;
+                    margin-left: 20px;
+                    color: rgba(255, 255, 255, 0.55);
+                    border-radius: 3px;
+                    background: #161616;
+                    .flag {
+                        width: 23px;
+                        height: 16px;
+                    }
                 }
             }
         }
@@ -86,7 +104,7 @@
                     display: none;
                 }
                 .logo {
-                    background: url('../../assets/images/logo.png');
+                    background: url('../../assets/images/logo.svg');
                     width: 48px;
                     height: 33px;
                 }
@@ -122,7 +140,7 @@
             justify-content: space-around;
             width: 150px;
             .phoneImg {
-                background: url('../../assets/images/call.png');
+                background: url('../../assets/images/telephone.svg');
                 width: 16px;
                 height: 16px;
             }
@@ -156,12 +174,31 @@
             }
         }
         .languageContainer {
+            display: flex;
             select {
                 padding-inline: 5px;
                 margin-left: 20px;
                 color: rgba(255, 255, 255, 0.55);
                 border-radius: 3px;
+                border: none;
                 background: #161616;
+            }
+            div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                width: 56px;
+                height: 30px;
+                padding-inline: 5px;
+                margin-left: 20px;
+                color: rgba(255, 255, 255, 0.55);
+                border-radius: 3px;
+                background: #161616;
+                .flag {
+                    width: 23px;
+                    height: 16px;
+                }
             }
         }
         .mobileSeachContainer {

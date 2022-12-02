@@ -1,5 +1,8 @@
 import './Header.scss';
 import {NavLink} from "react-router-dom";
+import flag from '../../assets/images/Flag_of_Ukraine.png'
+import arrowFordropdown from '../../assets/images/forDropdown.png'
+
 
 function BurgerMenu({isActive}) {
 
@@ -29,10 +32,10 @@ function BurgerMenu({isActive}) {
                     <option>USD $</option>
                     <option>UAH ₴</option>
                 </select>
-                <select>
-                    <option>
-                    </option>
-                </select>
+                <div className="dropdown_triger" >
+                    <img src={flag} className='flag'/>
+                    <img src={arrowFordropdown} />
+                </div>
             </div>
         </div>    
     </div>
