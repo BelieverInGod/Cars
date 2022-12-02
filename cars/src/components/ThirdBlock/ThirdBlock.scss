@@ -41,13 +41,12 @@
             box-sizing: border-box;
 
             .advantageBlock {
-                margin-right: 10px;
                 display: flex;
-                justify-content: space-around;
+                justify-content: flex-start;
                 align-items: center;
                 flex-direction: column;
                 cursor: pointer;
-                width: 150px;
+                width: 175px;
                 height: 221px;
                 text-align: center;
                 img {
@@ -90,11 +89,12 @@
         }
         @media screen and (max-width: 560px) {
             .titleAdvantagesContainer {
+                padding-left: 25px;
                 height: 100px;
-                margin-right: 80px;
                 margin-bottom: 0px;
             }
             .advantagesBocksContaineer {
+                padding-left: 5px;
                 height: auto;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -108,8 +108,11 @@
                         height: 22px;
                     }
                     .advantageTxt {
-                        width: 80px;
+                        width: 70px;
                         span {
+                            text-align: start;
+                            margin-left: 10px;
+                            width: 90px;
                             font-weight: 700;
                             font-size: 7.11805px;
                             line-height: 8px;
@@ -129,15 +132,18 @@
     @media screen and (max-width: 560px) {
         div {
             width: 330px;
+            display: flex;
+            justify-content: flex-start;
         }
     }
 }
 @media screen and (max-width: 560px) {
     .ThirdBlock {
+        display: flex;
+        justify-content: space-around;
         padding-top: 20px;
         align-items: baseline;
         height: 280px;
-        padding-left: 100px;
         div {
             height: 100px; 
         }
