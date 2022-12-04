@@ -3,7 +3,7 @@ import './Header.scss';
 import {NavLink} from "react-router-dom";
 import searchImg from '../../assets/images/search.png'
 import flag from '../../assets/images/Flag_of_Ukraine.svg'
-import phoneImg from '../../assets/images/telephone.svg'
+import phoneImg from '../../assets/images/headerPhone.svg'
 import burger from '../../assets/images/Бургер.svg'
 import arrowFordropdown from '../../assets/images/forDropdown.svg'
 
