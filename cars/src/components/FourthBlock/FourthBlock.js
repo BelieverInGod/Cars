@@ -15,7 +15,7 @@ function FourthBlock() {
               <div className='titleHowWeWorkContainer'>
                 <div className='title'>
                   <img src={howWeWork} alt='HowHeWork'/>
-                  How We Work
+                  <span>How We Work</span>
                 </div>
                 <div className='info'>
                   Lorem ipsum dolor sit amet,

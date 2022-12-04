@@ -31,6 +31,8 @@
                 flex-direction: column;
                 justify-content: flex-start;
                 .title {
+                    align-items: center;
+                    display: flex;                
                     img {
                         margin-right: 15px;
                         width: 32px;
@@ -161,9 +163,6 @@
                     width: 300px;
                     height: 89px;
                     div {
-                        span {
-                            margin-right: 20px;
-                        }
                         div {
                             width: 170px;
                         }
