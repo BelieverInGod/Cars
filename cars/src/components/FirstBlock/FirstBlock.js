@@ -63,7 +63,7 @@ function FirstBlock() {
             </div>
             <div className='carImage'>
                 <Swiper/>
-                <button>Check the car</button>
+                <button>Book Now!</button>
             </div>
         </div>
     </div>

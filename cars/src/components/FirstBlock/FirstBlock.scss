@@ -83,13 +83,14 @@
             }
             @media screen and (max-width: 560px) {
                 button {
+                    width: 330px;
                     display: block;
-                    margin-left: 20px;
+                    // margin-left: 20px;
                 }
                 .swiper {
                     width: 330px;
                     height: 160px;
-                    margin-left: -95px;
+                    margin-left: -65px;
                 }
                 .swiper-wrapper {
                     margin-left: 50px;
@@ -201,6 +202,20 @@
                 border-radius: 0%;
                 border: none;
                 border-bottom: 1px solid rgba(255, 215, 0, 0.4);;
+                .title {
+                    justify-content: flex-start;
+                    .titleImg {
+                        margin-inline: 30px; 
+                    }
+                }
+                .inputsContainer {
+                    .info {
+                        width: 330px;
+                    }
+                    button {
+                        width: 330px;
+                    }
+                }
             }
         }
 
@@ -274,7 +289,7 @@
             .bestAvilableContainer {
                 margin-top: 50px;
                 height: 100px;
-                margin-left: -10px;
+                margin-left: -70px;
                 div {
                     margin-top: 5px;
                 }

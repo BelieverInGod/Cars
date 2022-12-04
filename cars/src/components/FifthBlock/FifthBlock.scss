@@ -169,6 +169,11 @@
                     }
                 }
             }
+            @media screen and (max-width: 560px) {
+                .sendMessageContainer {
+                    margin-top: 0;
+                }
+            }    
 
             .mobileInfoPlus {
                 display: none;
@@ -233,5 +238,6 @@
 }
 @media screen and (max-width: 560px) {
     .FifthBlock {
+        height: auto;
     }
 }
