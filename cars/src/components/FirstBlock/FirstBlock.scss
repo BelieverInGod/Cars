@@ -197,7 +197,10 @@
         }
         @media screen and (max-width: 560px) {
             .findRentContainer {
-                margin-left: 10px;
+                width: 100%;
+                border-radius: 0%;
+                border: none;
+                border-bottom: 1px solid rgba(255, 215, 0, 0.4);;
             }
         }
 
@@ -286,7 +289,7 @@
         .rentInfoContainer {
             height: auto;
             max-width: 330px;
-            min-width: 330px;
+            min-width: 100vw;
             flex-direction: column;
         }
         .carImage {
@@ -299,8 +302,7 @@
 }
 @media screen and (max-width: 560px) {
     .FirstBlock {
-        height: 800px ;
-        padding-top: 20px;
+        height: auto ;
         padding-bottom: 20px;
     }
 }

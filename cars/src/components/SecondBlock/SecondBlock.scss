@@ -140,7 +140,7 @@
         .carParkContainer {
             display: block;
             padding-top: 20px;
-            margin-left: -80px;
+            // margin-left: -80px;
             flex-direction: column;
             min-width: 330px;
             max-width: 330px;
@@ -183,7 +183,9 @@
 }
 @media screen and (max-width: 560px) {
     .SecondBlock {
-        padding-left: 100px;
         height: auto;
+        display: flex;
+        justify-content: center;
+
     }
 }
