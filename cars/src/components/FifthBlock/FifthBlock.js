@@ -34,7 +34,7 @@ function FifthBlock() {
                     <input type='text' placeholder='Your email' />
                     <input type='text' placeholder='Your message' className='yourText' />
 
-                    <button>Search</button>
+                    <button>Send</button>
                   </div>
           </div>
 
