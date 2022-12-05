@@ -43,7 +43,7 @@ function FourthBlock() {
               <div>
                 <img src={tap} alt='2'/>
                 <div>
-                  <span>Make a request</span>
+                  <span>Confirm & Pay</span>
                   <div>Do it on Whatsapp or via the best way which is most comofrtable for you!
                   </div>
                 </div>
@@ -52,7 +52,7 @@ function FourthBlock() {
               <div> 
                 <img src={weels} alt='3'/>
                 <div>
-                  <span>Make a request</span>
+                  <span>Get the Car!</span>
                   <div>Do it on Whatsapp or via the best way which is most comofrtable for you!
                   </div>
                 </div>

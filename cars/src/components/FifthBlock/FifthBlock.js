@@ -15,10 +15,10 @@ function FifthBlock() {
         <div className=' fifthInfoContainer'>
 
           <div className="mapInfo">
-            <div>We are located by the adress:</div>
-            <span>Viena, Austria, Rovnogo Chela St. 23/45</span>
-            <div>Feel free to call or whatsup us:</div>
-            <span>+38 095 555-23-23</span>
+            <div className='mapAdress'>
+              <div>We are located by the adress:<span>Viena, Austria, Rovnogo Chela St. 23/45</span></div>
+              <div>Feel free to call or whatsup us:<span>+38 095 555-23-23</span></div>
+            </div>
             <OurGoogleMap></OurGoogleMap>
           </div>
 

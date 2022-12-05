@@ -116,15 +116,18 @@
 
                 img {
                     width: 57px;
+                    margin-right: 26px;
                 }
                 div {
                     background: none;
                     display: flex;
                     flex-direction: column;
-                    width: 70%;
+                    width: 50%;
+                    align-items: flex-start;
                     color: #000000;
                     span {
-                        margin-left: -50px;
+                        margin-top: 20px;
+                        // margin-left: -60px;
                         font-family: 'Ubuntu';
                         font-style: normal;
                         font-weight: 700;
@@ -137,6 +140,7 @@
                         font-style: normal;
                         font-weight: 400;
                         font-size: 14px;
+                        justify-content: flex-start;
                         line-height: 16px;
                     }
                 }
@@ -152,7 +156,7 @@
                 z-index: 1;
                 width: 330px;
                 .arrow {
-                    margin-left: 130px;
+                    margin-left: 150px;
                     margin-top: 10px;
                     margin-bottom: 10px;
                     transform: rotate(90deg);
@@ -163,6 +167,9 @@
                     width: 300px;
                     height: 89px;
                     div {
+                        span {
+                            margin-top: 10px;
+                        }
                         div {
                             width: 170px;
                         }
