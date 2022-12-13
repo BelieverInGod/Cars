@@ -1,6 +1,57 @@
 .App {
+  background: linear-gradient(
+      83.62deg,
+      rgba(244, 175, 70, 0.48) 0%,
+      rgba(0, 0, 0, 0) 75.57%
+    ),
+    #121212;
   display: flex;
   width: 100vw;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 560px) {
+  section {
+    display: grid;
+    align-content: center;
+  }
+
+  .hidden {
+    opacity: 0;
+  }
+
+  .show {
+    opacity: 1;
+  }
+
+  .show.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+
+  .show.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 }
